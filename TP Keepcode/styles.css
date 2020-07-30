@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.boite{
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: : 15px;
+	padding-right: 15px;
+}
+.cont1{
+	background: url("img/mini-profile-bg-01.jpg") no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	height: 470px;
+	padding-top: 13vw;
+}
+.cont2{
+	background: url("img/mini-profile-bg-02.jpg") no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	height: 100vh; 
+}
+.cont3{
+
+	height: 100vh; 
+}
+#mp{
+	width: 300px;
+	height: 150px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	margin-left:600px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	line-height: 45px;
+	padding: 20px;
+    margin-bottom: 175px;
+}
+#mp #_1{
+font-size: 45px;
+padding-top: 20px;
+}
+#wmp{
+	width: 100%;
+	height: 18vh;
+	background-color: rgba(255,255,255,0.6);
+	margin-top: -174px;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 0px;
+}
+
+#bwmp{
+	width: 300px;
+	height: 18vh;
+	background-color: #986665;
+	margin-right: 200px;
+	text-align: center;
+
+}
+#wmp #bwmpt {
+	color:rgba(0,0,0,0.7);
+	font-size: 19px;
+	padding-left: 200px;
+	padding-top:30px; 
+}
+#wmp #bwmp p{
+	text-align: center;
+	color:white;
+}
+.cont3 .boite .sbte1 .sbte2 .matiere1{
+	width: 300px;
+	height: 150px;
+	background-color: #98cb00;
+}
+.cont3 .boite .sbte1 .sbte2 .matiere2{
+	width: 300px;
+	height: 150px;
+	background-color: #cc6733;
+}
+.cont3 .boite .sbte1 .sbte2 .matiere3{
+	width: 300px;
+	height: 150px;
+	background-color: #3398cc;
+}
+.cont3 .boite .sbte1 .sbte2 .matiere4{
+	width: 300px;
+	height: 150px;
+	background-color: #676767 ;
+}
+.txt1 h1{
+	color:#98cb00;}
+.txt2 h1{
+color:#cc6733;}
+.txt3 h1{
+color: #3398cc;}
+.txt4 h1{
+color: #676767;}
+.matiere1 h1{
+	color: white ; text-align: center; padding-top: 50px;
+}
+.matiere2 h1{
+	color: white ; text-align: center; padding-top: 16px;
+}
+.matiere3 h1{
+	color: white ; text-align: center; padding-top: 28px;
+}
+.matiere4 h1{
+	color: white ; text-align: center; padding-top: 28px;
+}
+
+.cont3 .boite .sbte1 .sbte2 {
+	display: flex;
+}
+.cont3 .boite .sbte1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.txt1{
+	margin-left: 30px;
+	padding-top: 50px;
+}
+.txt2{
+	margin-left: 30px;
+	padding-top: 50px;
+}
+.txt3{
+	margin-left: 30px;
+	padding-top: 50px;
+}
+.txt4{
+	margin-left: 30px;
+	padding-top: 50px;
+}
+.foot{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.foot .fc{
+	width: 300px;
+	height: 310px;
+	background-color: white;
+	color: #986665;
+	margin-top: 30px;
+	margin-right: 25px;
+	text-align: center;
+
+}
+#i2 {
+	padding-top: 27px;
+}
+#i3{
+	padding-top: 13px;
+}
+.fpl{
+	color: rgba(0,0,0,0.5);
+}
+.ff{
+	width: 900px;
+	height: 410px;
+	background-color: rgba(255,255,255,0.7);
+	margin-top: 35px;
+}
+.ff form .coor{
+	width: 450px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	color: black;
+	margin-top: 20px;
+	margin-left: 30px;
+	background-color: transparent;
+}
+.ff form .coord{
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	color: black;
+	margin-top: 20px;
+	margin-left: 30px;
+	background-color: transparent;
+}
+
+.ff form .sent{
+	background-color:#b7beb6 ; color: white; width: 82px; height: 35px; text-align: center; margin-left:397px; margin-top: 16px;
+}
+.pf{
+	text-align: center; margin-top: 130px;
+}
+.spf{
+	color: skyblue;
+}
