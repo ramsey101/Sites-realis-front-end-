@@ -1,0 +1,225 @@
+/* GENERALE */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.wapper{
+	width: 900px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+ul li{
+	list-style: none;
+}
+
+.searchicon{
+	width: 20px;
+	color: #FFF;
+}
+
+.support{
+	color: #323232;
+}
+
+.clear{
+	clear: both;
+}
+
+.imgcontent{
+	max-width: 400px;
+}
+
+h1{
+	font-size: 36px;
+}
+
+
+
+
+/* HEADER */
+header{
+	background: #323232;
+}
+
+header .main-menu ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+header .main-menu ul .logo{
+	font-size: 22px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header .main-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+/* BANNER */
+
+#banner{
+	background: url('../images/hero-banner-homepage.image.large_2x.jpg') no-repeat;
+	height: 700px;
+	background-size: cover;
+	text-align: center;
+}
+
+#banner h1{
+	padding-top: 50px;
+	font-size: 35px;
+	font-weight: 100px;
+}
+
+#banner input{
+	width: 600px;
+	padding: 10px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+
+
+/*FONCTIONALITY*/
+
+#fonctionalities{
+	padding: 60px;
+	text-align: center;
+}
+
+#fonctionalities .items .item-box-1, .item-box-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#fonctionalities .items a{
+	text-decoration: none;
+}
+
+
+#fonctionalities .items img{
+	width: 65px;
+    margin-bottom: 15px;
+}
+
+#fonctionalities .items span{
+	color: #323232;
+	margin: 15px 0;
+}
+
+.item-box-2{
+	padding-top: 50px;
+}
+
+
+/* APPSTORE CONTENT*/
+
+#appstore{
+	padding: 50px;
+}
+
+.box .wapper{
+	display: flex;
+}
+
+.box .wapper a{
+	font-size: 20px;
+	color: blue; 49610484
+	margin-top: 20px;
+}
+
+#appstore .appstore-content{
+	width: 50%;
+	margin-right: 30px;
+}
+
+#appstore .appstore-content p{
+	font-size: 26px;
+}
+
+
+/*appcard*/
+
+#appscard{
+	padding: 50px;
+}
+
+#appscard p{
+	font-size: 26px;
+}
+
+.imgcontent2{
+	width: 200px;
+	margin-right: 150px;
+}
+
+
+/*tradeapp*/
+
+#tradeapp{
+	background: url('../images/banner-hero-giveback-support.image.large_2x.jpg');
+	height: 500px;
+	background-size: cover;
+}
+
+#tradeapp p{
+	font-size: 26px;
+}
+
+.tradeapp-content{
+	text-align: left;
+	padding-top: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
