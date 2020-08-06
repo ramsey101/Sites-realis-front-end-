@@ -121,7 +121,7 @@ nav.blak{
 	align-items: center;
 	background-color: rgb(21, 96, 189);
 	padding-top:2px;
-	height: 150px;
+	height: 70px;
 	position: fixed;
 	margin-left:0px;
 	width: 100%;
