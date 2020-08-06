@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 try{
  $base=new PDO("mysql:host=localhost;dbname=abonnement","root","");
  }
@@ -82,6 +82,13 @@ nav ul a {
 	text-decoration: none;
 	color: rgb(21, 96, 189);
 }
+nav ul a:hover {
+	text-decoration : none;
+}
+nav h1 a:hover{
+	text-decoration : none;
+}
+
 nav a::after{
 	content: '';
 	display: block;
