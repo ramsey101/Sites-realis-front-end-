@@ -1,0 +1,138 @@
+*{
+	margin:0; 
+	padding:0;
+	font-family: 'Open Sans','Yanone Kaffeesatz','Rubik', 'Zhi Mang Xing','Nunito', cursive, serif,sans-serif ;
+}
+body{
+	box-sizing: border-box;
+}
+.boite{
+	width: 1200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	padding-top:2px;
+	height: 90px;
+	position: fixed;
+	margin-left:0px;
+	width: 100%;
+	top:0;
+	transition: .3s;
+	align-content: center;
+	z-index: 1;
+	padding: 0 20px; 
+}
+nav a {
+	text-decoration: none;
+	color: rgb(21, 96, 189);
+}
+nav a::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: rgb(21, 96, 189);
+	transition:width .3s;
+}
+nav a:hover::after{
+	transition: width .3s;
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	margin-right: 25px;
+	
+}
+nav ul li {
+	list-style: none;
+	margin-left: 35px;
+}
+nav.blak{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(21, 96, 189);
+	padding-top:2px;
+	height: 150px;
+	position: fixed;
+	margin-left:0px;
+	width: 100%;
+	top:0;
+	transition: .3s;
+	align-content: center;
+	z-index: 1;
+	padding: 0 20px; 
+}
+nav.blak a {
+	text-decoration: none;
+	color: white;
+}
+nav.blak a::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: white;
+	transition: width .3s;
+}
+nav.blak a:hover::after{
+	transition: width .3s;
+	width: 100%;
+}
+.trait{
+	border-bottom: 2px solid black;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.hot{
+text-align: center;
+}
+.hote{
+	display: flex;
+	margin-left: 40px;
+}
+.resis{
+	display: flex;
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      

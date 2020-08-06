@@ -1,0 +1,55 @@
+*{
+	margin:0; 
+	padding:0;
+	font-family: 'Open Sans','Yanone Kaffeesatz','Rubik', 'Zhi Mang Xing','Nunito', cursive, serif,sans-serif ;
+}
+body{
+	box-sizing: border-box;
+}
+.boite{
+	width: 1150px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	box-shadow: -10px 10px 10px 10px #3a3a3a62;	
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	padding-top:2px;
+	height: 100px;
+	position: fixed;
+	margin-left:0px;
+	width: 100%;
+	top:0;
+	transition: .3s;
+	align-content: center;
+	z-index: 1;
+	padding: 0 20px; 
+}
+nav a {
+	text-decoration: none;
+	color: rgb(21, 96, 189);
+}
+nav a::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background: rgb(21, 96, 189);
+	transition:width .3s;
+}
+nav a:hover::after{
+	transition: width .3s;
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	margin-right: 25px;
+	
+}
+nav ul li {
+	list-style: none;
+	margin-left: 35px;
+}
