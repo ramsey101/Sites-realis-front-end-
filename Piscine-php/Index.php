@@ -149,7 +149,7 @@ margin-top: -500px;
 text-align: center;
 font-size: 55px;
 }
-.trait1{
+trait1{
 	border-bottom: 3px solid white;
 	margin-top: 5px;
 	margin-bottom: 5px;
